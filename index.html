@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Плеер HTML5</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body id="body">
+    <div id="si-video">
+    <div id="row">
+        
+        <video id="video" width="854" height="480">
+            <source src="test.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        
+        
+    </div>
+    <div id="nes">
+    <div id="control">
+            <div id="btn-play-stop">▶</div>
+            <div id="time"><div id='currenttime'></div><div id="ss">/</div><div id="duration"></div></div>
+            <div id="total"><div id="bufered"><div id="current"></div></div></div>
+            <div id="btn-screen">❏</div>
+            <input id="valume" type="range" min="0" max="100" step="1" value="50" oninput="valumeF()"> 
+        </div>
+    </div>
+    </div>
+        <script src="function.js"></script>
+  
+</body>
+</html>

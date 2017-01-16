@@ -1,0 +1,176 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+    font-size: 1.2em;
+}
+#video {
+    z-index: -9999;
+    cursor: pointer;
+    position: relative;
+}
+#row {
+    width: 854px;
+    margin: 0 auto;
+    height: calc(480px - 2em);
+}
+#btn-screen {
+    float: right;
+    cursor: pointer;
+    position: relative;
+}
+#control {
+    width: 854px;
+    height: 2em;
+    margin: 2em auto;
+    z-index: 5;
+    bottom: 0;
+    color: #fff;
+
+}
+#btn-play-stop {
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 1em;
+    color: #fff;
+    float: left;
+    margin-top: .3em;
+    position: relative;
+}
+#total {
+    margin-top: -2em;
+    width: 100%;
+    background: #b9b9b9;
+    cursor: pointer;
+}
+#bufered {
+    background: #868686;
+}
+#current {
+    background: #121212;
+    height: 6px;
+    
+}
+
+#dynamic {
+    fill:#333;
+    padding:0 5px;
+}
+            
+#dynamic.off {
+    fill:#ccc;
+}
+
+#time {
+        float: left;
+    width: 6em;
+    margin-top: .6em;
+    position: relative;
+}
+input#valume[type="range"]{
+
+-webkit-appearance: none;
+-moz-apperance: none;
+width: 10%;
+height: 8px;
+padding: 0;
+background: #434343;
+margin-top: .8em;
+    float: left;
+outline: none;
+    cursor: pointer;
+    position: relative;
+}
+input#valume[type="range"]::-webkit-slider-thumb{
+-webkit-appearance:none;
+-moz-apperance:none;
+width:7px;
+height:14px;
+
+background: #ac3030;
+
+}
+
+#currenttime {
+    float: left;
+    width: auto;
+    margin-right: 3px;
+}
+#duration {
+    float: left;
+        width: auto;
+    margin-left: 3px;
+}
+#ss {
+        float: left;
+        width: auto;
+}
+
+:-webkit-full-screen #row{
+  width: 100%;
+    height: 100%;
+}
+:-moz-full-screen #row{
+  width: 100%;
+    height: 100%;
+}
+:full-screen #row{
+  width: 100%;
+    height: 100%;
+}
+
+:-webkit-full-screen #video{
+  width: 100%;
+    height: 100%;
+}
+:-moz-full-screen #video{
+  width: 100%;
+    height: 100%;
+}
+:full-screen #video{
+  width: 100%;
+    height: 100%;
+}
+:-webkit-full-screen #si-video{
+  width: 100%;
+    height: 100%;
+}
+:-moz-full-screen #si-video{
+  width: 100%;
+    height: 100%;
+}
+:full-screen #si-video{
+  width: 100%;
+    height: 100%;
+}
+:-webkit-full-screen #nes{
+  width: 100%;
+    margin: 0;
+}
+:-moz-full-screen #nes{
+  width: 100%;
+     margin: 0;
+}
+:full-screen #nes{
+  width: 100%;
+     margin: 0;
+}
+:-webkit-full-screen #control{
+  width: 100%;
+      margin: 0em auto;
+}
+:-moz-full-screen #control{
+  width: 100%;
+    margin: 0em auto;
+}
+:full-screen #control{
+  width: 100%;
+    margin: 0em auto;
+}
+#nes {
+    width: 854px;
+    height: 2em;
+margin: 1em auto;
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.22));
+}
